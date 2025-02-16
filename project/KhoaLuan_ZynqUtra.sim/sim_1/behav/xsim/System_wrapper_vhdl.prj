@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_system_cache_0_0/sim/System_system_cache_0_0.vhd" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_system_cache_0_1/sim/System_system_cache_0_1.vhd" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_mult_gen_0_0/sim/System_mult_gen_0_0.vhd" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_axi_cdma_0_0/sim/System_axi_cdma_0_0.vhd" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_proc_sys_reset_0_0/sim/System_proc_sys_reset_0_0.vhd" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_axi_bram_ctrl_0_0/sim/System_axi_bram_ctrl_0_0.vhd" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_axi_apb_bridge_0_0/sim/System_axi_apb_bridge_0_0.vhd" \
+
+# Do not sort compile order
+nosort

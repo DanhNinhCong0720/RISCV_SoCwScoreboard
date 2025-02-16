@@ -1,0 +1,33 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../KhoaLuan_ZynqUtra.gen/sources_1/bd/System/ipshared/ec67/hdl" \
+"../../../../../rtl/ALU.v" \
+"../../../../../rtl/Branch_Excute.v" \
+"../../../../../rtl/Imm_Extend.v" \
+"../../../../../rtl/Instr_Decode.v" \
+"../../../../../rtl/Issue_ALU.v" \
+"../../../../../rtl/Issue_LSU.v" \
+"../../../../../rtl/Issue_MUL.v" \
+"../../../../../rtl/LSU.v" \
+"../../../../../rtl/Register_File.v" \
+"../../../../../rtl/ScoreBoard.v" \
+"../../../../../rtl/Core.v" \
+"../../../../../rtl/ICache_Controller.v" \
+"../../../../../rtl/DCache_Controller.v" \
+"../../../../../rtl/CDMA_Control.v" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_Core_0_0/sim/System_Core_0_0.v" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_ICache_Controller_0_0/sim/System_ICache_Controller_0_0.v" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_DCache_Controller_0_0/sim/System_DCache_Controller_0_0.v" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_CDMA_Control_0_0/sim/System_CDMA_Control_0_0.v" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_axi_interconnect_0_upgraded_ipi_imp_xbar_0/sim/System_axi_interconnect_0_upgraded_ipi_imp_xbar_0.v" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_axi_interconnect_0_imp_auto_pc_0/sim/System_axi_interconnect_0_imp_auto_pc_0.v" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_axi_interconnect_0_imp_s00_mmu_0/sim/System_axi_interconnect_0_imp_s00_mmu_0.v" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_axi_interconnect_0_imp_s01_mmu_0/sim/System_axi_interconnect_0_imp_s01_mmu_0.v" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/ip/System_axi_bram_ctrl_0_bram_0/sim/System_axi_bram_ctrl_0_bram_0.v" \
+"../../../../KhoaLuan_ZynqUtra.ip_user_files/bd/System/sim/System.v" \
+"../../../../KhoaLuan_ZynqUtra.gen/sources_1/bd/System/hdl/System_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
